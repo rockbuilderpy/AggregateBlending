@@ -1,0 +1,55 @@
+.App {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 50px;
+  text-align: center;
+}
+
+/********** Input1 **********/
+.App .input-container-1 > * {
+  margin: 10px;
+}
+
+.App .input-container-1 select,
+.App .input-container-1 input[type="number"] {
+  padding: 5px 10px;
+}
+
+.App .input-container-1 .submit-btn,
+.App .submit-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  font-size: medium;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.App .disabled-btn {
+  background-color: lightgray;
+  cursor: default;
+}
+
+/********** Input2 **********/
+.App table {
+  margin: 30px auto;
+}
+
+.App table input {
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.App table caption {
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
